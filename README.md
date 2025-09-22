@@ -5,8 +5,9 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
 
 ## Projects
 1. Project 1 - FAQ Page: A simple and styled FAQ page explaining what HTML, CSS, and JavaScript are.  
-2. Project 2 - Color Flipper: A small page that changes background colors randomly on button click.  
+2. Project 2 - Todo list page: A simple Todo page create task and list.  
 3. Project 3 - Random Quote Generator: A page that shows random developer quotes using JavaScript arrays and functions.  
+4. Project 4 - Tip Calculator page: to calculate tip with each person average payments.
 
 ## About
 I am learning frontend development from the basics. I started with HTML and CSS, then moved into JavaScript.  
