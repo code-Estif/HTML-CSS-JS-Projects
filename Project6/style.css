@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #00bcd4, #3f51b5);
+  color: #fff;
+}
+
+.converter {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 16px;
+  width: 320px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+header p {
+  font-size: 0.9rem;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.input-section, .result-section {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #fff;
+  background: rgba(255,255,255,0.2);
+  color: #333;
+}
+
+.result-section p {
+  margin-bottom: 10px;
+}
+
+button {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #f50057;
+}
