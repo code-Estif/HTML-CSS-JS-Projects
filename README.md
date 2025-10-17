@@ -9,7 +9,8 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
 3. Project 3 - Random Quote Generator: A page that shows random developer quotes using JavaScript arrays and functions.  
 4. Project 4 - Tip Calculator page: to calculate tip with each person average payments.
 5. Project 5 - Digital clock page : to show current time 
-6. Project 6 - Temperature coverter page : converter Temperature in different type. 
+6. Project 6 - Temperature coverter page : converter Temperature in different type.
+6. Project 7 - BMI Calculator : calculate body weight and height BMI with input.
 
 ## About
 I am learning frontend development from the basics. I started with HTML and CSS, then moved into JavaScript.  
