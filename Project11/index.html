@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recipe Book</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <h1 class="brand">Recipe Book</h1>
+      <form id="searchForm" class="search" role="search" aria-label="Search recipes">
+        <input id="searchInput" type="search" placeholder="Search recipes..." aria-label="Search recipes">
+        <select id="filterSelect" aria-label="Filter by category">
+          <option value="all">All</option>
+        </select>
+        <button id="clearBtn" type="button" aria-label="Clear search">Clear</button>
+      </form>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="gridSection" class="grid-section" aria-live="polite">
+      <ul id="cards" class="cards" role="list"></ul>
+    </section>
+
+    <article id="detailSection" class="detail-section hidden" aria-hidden="true">
+      <nav class="detail-nav">
+        <button id="backBtn" type="button">← Back</button>
+        <div class="pager">
+          <button id="prevBtn" type="button" aria-label="Previous recipe">Prev</button>
+          <button id="nextBtn" type="button" aria-label="Next recipe">Next</button>
+        </div>
+      </nav>
+
+      <header class="detail-header">
+        <h2 id="detailTitle"></h2>
+        <p id="meta" class="meta"></p>
+      </header>
+
+      <figure class="detail-figure">
+        <img id="detailImage" src="" alt="">
+        <figcaption id="detailCaption"></figcaption>
+      </figure>
+
+      <section class="detail-body">
+        <div class="info">
+          <p><strong>Time:</strong> <span id="time"></span></p>
+          <p><strong>Serves:</strong> <span id="serves"></span></p>
+          <p><strong>Category:</strong> <span id="cat"></span></p>
+        </div>
+
+        <div class="cols">
+          <section class="ingredients">
+            <h3>Ingredients</h3>
+            <ul id="ingredientsList"></ul>
+          </section>
+
+          <section class="steps">
+            <h3>Steps</h3>
+            <ol id="stepsList"></ol>
+          </section>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <p>Recipe Book • Front-end only</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
