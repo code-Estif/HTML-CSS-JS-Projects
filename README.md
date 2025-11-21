@@ -14,6 +14,8 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  8. Project 8 - Stop Watch : Record time with start-resume-reset button.
  9. Project 9 - Testimonial Slider : show People feeback with Slider.
  10. Project 10 - Age Calculator : calculate your age by your birth month.
+ 11. Project 11 - Recipe book : organize Recipe book and manage.
+ 12. Project 12 - Dice roll simulator : play dice roll.
 
  About
 I am learning frontend development from the basics. I started with HTML and CSS, then moved into JavaScript.  
