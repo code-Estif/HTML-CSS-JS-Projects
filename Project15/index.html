@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Steps Progress Bar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Steps Progress</h1>
+  </header>
+
+  <main class="main" id="main">
+    <section class="progress-section" aria-label="Progress steps">
+      <ol class="progress" role="list" id="progress">
+        <li class="step" data-step="1" aria-current="false">
+          <div class="circle" aria-hidden="true">
+            <!-- SVG Start Icon -->
+            <svg class="icon icon-start" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 2v20l18-10L4 2z" />
+            </svg>
+            <svg class="icon icon-check" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.285 6.709l-11.02 11.02-5.55-5.55 1.415-1.414 4.135 4.136 9.605-9.606z"/>
+            </svg>
+          </div>
+          <span class="label">Start</span>
+        </li>
+
+        <li class="step" data-step="2" aria-current="false">
+          <div class="circle" aria-hidden="true">
+            <!-- SVG Gear Icon -->
+            <svg class="icon icon-gear" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M19.14,12.94a7.14,7.14,0,0,0,0-1.88l2.11-1.65a0.5,0.5,0,0,0,.12-0.63l-2-3.46a0.5,0.5,0,0,0-.6-0.22l-2.49,1a6.98,6.98,0,0,0-1.62-0.94L14.5,2.5a0.5,0.5,0,0,0-.5-0.5H10a0.5,0.5,0,0,0-.5.5L8.83,4.12a6.98,6.98,0,0,0-1.62.94l-2.49-1a0.5,0.5,0,0,0-.6.22l-2,3.46a0.5,0.5,0,0,0,.12.63L4.86,11.06a7.14,7.14,0,0,0,0,1.88L2.75,14.59a0.5,0.5,0,0,0-.12.63l2,3.46a0.5,0.5,0,0,0,.6.22l2.49-1a6.98,6.98,0,0,0,1.62.94L9.5,21.5a0.5,0.5,0,0,0,.5.5h4a0.5,0.5,0,0,0,.5-0.5l0.67-1.62a6.98,6.98,0,0,0,1.62-0.94l2.49,1a0.5,0.5,0,0,0,.6-0.22l2-3.46a0.5,0.5,0,0,0-.12-0.63Z M12,15.5A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/>
+            </svg>
+            <svg class="icon icon-check" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.285 6.709l-11.02 11.02-5.55-5.55 1.415-1.414 4.135 4.136 9.605-9.606z"/>
+            </svg>
+          </div>
+          <span class="label">Step 1</span>
+        </li>
+
+        <li class="step" data-step="3" aria-current="false">
+          <div class="circle" aria-hidden="true">
+            <!-- SVG Gear Icon (same) -->
+            <svg class="icon icon-gear" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M19.14,12.94a7.14,7.14,0,0,0,0-1.88l2.11-1.65a0.5,0.5,0,0,0,.12-0.63l-2-3.46a0.5,0.5,0,0,0-.6-0.22l-2.49,1a6.98,6.98,0,0,0-1.62-0.94L14.5,2.5a0.5,0.5,0,0,0-.5-0.5H10a0.5,0.5,0,0,0-.5.5L8.83,4.12a6.98,6.98,0,0,0-1.62.94l-2.49-1a0.5,0.5,0,0,0-.6.22l-2,3.46a0.5,0.5,0,0,0,.12.63L4.86,11.06a7.14,7.14,0,0,0,0,1.88L2.75,14.59a0.5,0.5,0,0,0-.12.63l2,3.46a0.5,0.5,0,0,0,.6.22l2.49-1a6.98,6.98,0,0,0,1.62.94L9.5,21.5a0.5,0.5,0,0,0,.5.5h4a0.5,0.5,0,0,0,.5-0.5l0.67-1.62a6.98,6.98,0,0,0,1.62-0.94l2.49,1a0.5,0.5,0,0,0,.6-0.22l2-3.46a0.5,0.5,0,0,0-.12-0.63Z M12,15.5A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/>
+            </svg>
+            <svg class="icon icon-check" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.285 6.709l-11.02 11.02-5.55-5.55 1.415-1.414 4.135 4.136 9.605-9.606z"/>
+            </svg>
+          </div>
+          <span class="label">Step 2</span>
+        </li>
+
+        <li class="step" data-step="4" aria-current="false">
+          <div class="circle" aria-hidden="true">
+            <!-- SVG Trophy Icon -->
+            <svg class="icon icon-trophy" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 3h-3V2H9v1H6a1 1 0 0 0-1 1v2a4 4 0 0 0 3 3.87V12a4 4 0 0 0 4 4h2a4 4 0 0 0 4-4v-2.13A4 4 0 0 0 19 6V4a1 1 0 0 0-1-1zM6 18v2a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-2H6z"/>
+            </svg>
+            <svg class="icon icon-check" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.285 6.709l-11.02 11.02-5.55-5.55 1.415-1.414 4.135 4.136 9.605-9.606z"/>
+            </svg>
+          </div>
+          <span class="label">Finish</span>
+        </li>
+      </ol>
+
+      <div class="controls">
+        <button id="prev" class="ctrl">← Prev</button>
+        <button id="next" class="ctrl">Next →</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
