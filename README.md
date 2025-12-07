@@ -19,6 +19,7 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  13. Porject 13 - video trailer pop up : pop up video player with JS.
  14. Project 14 - tabs section : steps tab with javascript.
  15. Project 15 - progress bar : progress bar with steps using javascript.
+ 16. Project 16 - menu selector : social media selector with glass theme menu.
 
  About
 I am learning frontend development from the basics. I started with HTML and CSS, then moved into JavaScript.  
