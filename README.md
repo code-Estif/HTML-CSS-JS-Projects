@@ -21,6 +21,8 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  15. Project 15 - progress bar : progress bar with steps using javascript.
  16. Project 16 - menu selector : social media selector with glass theme menu.
  17. Project 17 - SideBar : cool sidebar with hamburger menu and repsonsive at mobile.
+ 18. Project 18 - Password Generator : generate secure passwords with customizable length and character options with dark theme.
+
 
  About
 I am learning frontend development from the basics. I started with HTML and CSS, then moved into JavaScript.  
