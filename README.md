@@ -23,7 +23,7 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  17. Project 17 - SideBar : cool sidebar with hamburger menu and repsonsive at mobile.
  18. Project 18 - Password Generator : generate secure passwords with customizable length and character options with dark theme.
  19. Project 19 - photo gallery : show photo gallery with input number of photos.
- 20. Project 20 - Image Slider : show image slider with input number of images.
+ 20. Project 20 - Image Slider : show image slider with input number of images.  
 
 
  About
