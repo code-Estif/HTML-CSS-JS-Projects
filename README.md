@@ -24,9 +24,10 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  18. Project 18 - Password Generator : generate secure passwords with customizable length and character options with dark theme.
  19. Project 19 - photo gallery : show photo gallery with input number of photos.
  20. Project 20 - Image Slider : show image slider with input number of images.  
+ 21. Project 21 - Image Search Web : searching any images.
 
 
  About
 
 I am learning frontend development from the basics. I started with HTML and CSS, then moved into JavaScript.  
-Right now I have Finished full javascript and now By making one project every week, I want to track my progress and apply what I learn step by step.
+Right now I have Finished full javascript and now By making one project every Day, I want to track my progress and apply what I learn step by step.
