@@ -25,6 +25,7 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  19. Project 19 - photo gallery : show photo gallery with input number of photos.
  20. Project 20 - Image Slider : show image slider with input number of images.  
  21. Project 21 - Image Search Web : searching any images.
+ 22. Project 22 - dark mode toggle : switch between light and dark theme
 
 
  About
