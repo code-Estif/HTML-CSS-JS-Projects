@@ -27,6 +27,7 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  21. Project 21 - Image Search Web : searching any images.
  22. Project 22 - dark mode toggle : switch between light and dark theme.
  23. Project 23 - Quiz & Answer web page : question and answer toggle web page.
+ 24. Project 24 - Button Hover Effect : button hover effect with javascript.
 
 
  About
