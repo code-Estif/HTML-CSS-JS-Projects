@@ -29,6 +29,7 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  23. Project 23 - Quiz & Answer web page : question and answer toggle web page.
  24. Project 24 - Button Hover Effect : button hover effect with javascript.
  25. Project 25 - Background video : playing backgorund video with preloader.
+ 26. Project 26 - Rotating Image : Rotating Image with 3D effect.
 
 
  About
