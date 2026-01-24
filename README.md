@@ -31,6 +31,7 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  25. Project 25 - Background video : playing backgorund video with preloader.
  26. Project 26 - Rotating Image : Rotating Image with 3D effect.
  27. Project 27 - SideBar : responsive sidebar menu with dashboard.
+ 28. Project 28 - Pricing Page : Pricing page with different plans.
 
 
  About
