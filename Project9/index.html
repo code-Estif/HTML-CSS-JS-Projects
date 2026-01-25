@@ -1,35 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Testimonial Slider</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Testimonial Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="wrapper">
-    <section class="slider">
-      <h1 class="title">What People Say</h1>
-
-      <div class="testimonial">
-        <img id="photo" src="img1.jpg" alt="User photo" class="photo">
-
-        <p id="text" class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Exercitationem velit quidem amet dolore.
-        </p>
-
-        <h2 id="name" class="name">John Doe</h2>
-        <p id="role" class="role">Web Developer</p>
+    <div class="container">
+        <h1>What Our Clients Say</h1>
+        <div class="testimonial-slider">
+            <div class="slider-container">
+                <!-- Testimonial 1 -->
+                <div class="testimonial">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "This service has completely transformed how we handle our projects. The team is responsive, professional, and truly cares about our success. I would recommend them to anyone looking for reliable solutions."
+                    </p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" class="client-image">
+                        <div class="client-details">
+                            <h3>Sarah Johnson</h3>
+                            <p>Marketing Director, TechCorp</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Outstanding experience from start to finish. The platform is intuitive, the features are powerful, and the support team is exceptional. We've seen a 40% increase in productivity since implementation."
+                    </p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen" class="client-image">
+                        <div class="client-details">
+                            <h3>Michael Chen</h3>
+                            <p>CEO, Innovate Solutions</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "We've tried several similar services, but none compare to the quality and reliability we've experienced here. The attention to detail and customer-centric approach makes all the difference."
+                    </p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Rodriguez" class="client-image">
+                        <div class="client-details">
+                            <h3>Emma Rodriguez</h3>
+                            <p>Product Manager, GlobalTech</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button class="slider-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <div class="slider-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
       </div>
+    </div>
 
-      <div class="buttons">
-        <button id="prev">Prev</button>
-        <button id="next">Next</button>
-      </div>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
