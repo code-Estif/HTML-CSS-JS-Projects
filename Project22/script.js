@@ -1,23 +1,21 @@
-const input = document.querySelector(".input");
-const body = document.querySelector("body");
+const toggle = document.getElementById('dark-mode-toggle');
+        const body = document.body;
 
-input.checked = JSON.parse(localStorage.getItem("mode"));
+        // Check for saved theme preference or respect OS preference
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        const currentTheme = localStorage.getItem('theme');
+        
+        if (currentTheme === 'light' || (!currentTheme && !prefersDarkScheme.matches)) {
+            body.classList.add('light-mode');
+            toggle.checked = true;
+        }
 
-function updateBody() {
-  if (input.checked) {
-    body.style.background = "black";
-  } else {
-    body.style.background = "white";
-  }
-}
-
-updateBody();
-
-input.addEventListener("input", () => {
-  updateBody();
-  updateLocalStorage();
-});
-
-function updateLocalStorage() {
-  localStorage.setItem("mode", JSON.stringify(input.checked));
-}
+        toggle.addEventListener('change', function() {
+            if (this.checked) {
+                body.classList.add('light-mode');
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.classList.remove('light-mode');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
