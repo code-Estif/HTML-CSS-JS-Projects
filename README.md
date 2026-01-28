@@ -32,6 +32,8 @@ The goal is to practice and improve my skills in HTML, CSS, and JavaScript by ma
  26. Project 26 - Rotating Image : Rotating Image with 3D effect.
  27. Project 27 - SideBar : responsive sidebar menu with dashboard.
  28. Project 28 - Pricing Page : Pricing page with different plans.
+ 29. Project 29 - Recipe App : Recipe App with different recipes.
+ 30. Project 30 - Simple E-Commerce site : Simple E-Commerce site with different products.
 
 
  About
